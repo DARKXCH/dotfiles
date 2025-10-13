@@ -1,0 +1,26 @@
+# Halloy config.
+#
+# For a complete list of available options,
+# please visit https://halloy.chat/configuration/
+
+[buffer.internal_messages.error]
+enabled = true
+smart = 180
+[buffer.internal_messages.success]
+enabled = true
+smart = 180
+[servers.liberachat]
+nickname = "darkxch"
+server = "irc.libera.chat"
+channels = ["#halloy","#archlinux","#fsf","#c","#linux","#FreeSoftwareTongji-cn"]
+
+[buffer.channel.topic]
+enabled = true
+
+[servers.liberachat.sasl.plain]
+    username = "{{ (keepassxc "web.libera.chat").UserName }}"
+    password = "{{ (keepassxc "web.libera.chat").Password }}"
+
+[buffer.server_messages.change_host]
+enabled = true
+smart = 180

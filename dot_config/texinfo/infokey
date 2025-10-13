@@ -1,8 +1,31 @@
 #info
+g first-node
+G last-node
+\mb beginning-of-node
+\me end-of-node
 j  next-line
 k  prev-line
-l  forward-char
-h  backward-char       
+
+f scroll-forward-page-only
+^f scroll-forward-page-only
+
+b scroll-backward-page-only
+
+
+d scroll-half-screen-down
+
+^xn next-node
+^xp prev-node
+^xu up-node
+\mt top-node
+\md dir-node
+
+:q quit
+
+n search-next
+N search-previous
+
+\mh get-info-help-node
 
 
 #var
