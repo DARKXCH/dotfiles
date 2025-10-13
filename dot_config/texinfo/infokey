@@ -14,16 +14,14 @@ b scroll-backward-page-only
 
 d scroll-half-screen-down
 
-^xn next-node
-^xp prev-node
-^xu up-node
+\mn next-node
+\mp prev-node
+\mu up-node
 \mt top-node
 \md dir-node
 
 :q quit
 
-n search-next
-N search-previous
 
 \mh get-info-help-node
 
