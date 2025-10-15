@@ -6,7 +6,10 @@
   "WINDOW_BOUNDS": {
     "x": 0,
     "y": 0,
-    "width": 940,
-    "height": 754
-  }
+    "width": 1504,
+    "height": 786
+  },
+  "offloadAdmControls": true,
+  "enableHardwareAcceleration": true,
+  "chromiumSwitches": {}
 }
