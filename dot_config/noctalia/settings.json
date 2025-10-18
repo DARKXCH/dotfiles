@@ -20,7 +20,7 @@
     },
     "bar": {
         "backgroundOpacity": 0,
-        "density": "default",
+        "density": "comfortable",
         "floating": false,
         "marginHorizontal": 0.25,
         "marginVertical": 0.25,
@@ -107,12 +107,15 @@
                 },
                 {
                     "customIconPath": "",
-                    "icon": "noctalia",
+                    "icon": "",
                     "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "useDistroLogo": true
                 }
             ]
         }
+    },
+    "battery": {
+        "chargingMode": 0
     },
     "brightness": {
         "brightnessStep": 5
@@ -211,7 +214,8 @@
         "name": "Shanghai",
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
-        "useFahrenheit": false
+        "useFahrenheit": false,
+        "weatherEnabled": true
     },
     "network": {
         "wifiEnabled": true
@@ -229,7 +233,7 @@
         "alwaysOnTop": false,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
-        "lastSeenTs": 1760539659000,
+        "lastSeenTs": 1760625598000,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -256,19 +260,20 @@
         "videoCodec": "hevc",
         "videoSource": "portal"
     },
-    "settingsVersion": 15,
+    "settingsVersion": 16,
+    "setupCompleted": true,
     "templates": {
         "discord": false,
         "discord_armcord": false,
         "discord_dorion": false,
         "discord_equibop": false,
         "discord_lightcord": false,
-        "discord_vesktop": false,
+        "discord_vesktop": true,
         "discord_webcord": false,
         "enableUserTemplates": false,
         "foot": false,
         "fuzzel": false,
-        "ghostty": false,
+        "ghostty": true,
         "gtk": false,
         "kcolorscheme": false,
         "kitty": false,
@@ -278,9 +283,8 @@
     "ui": {
         "fontDefault": "Roboto",
         "fontDefaultScale": 1,
-        "fontFixed": "JetBrains Mono",
+        "fontFixed": "JetBrainsMono Nerd Font Mono",
         "fontFixedScale": 1,
-        "idleInhibitorEnabled": false,
         "tooltipsEnabled": true
     },
     "wallpaper": {
@@ -289,7 +293,7 @@
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
-        "fillMode": "crop",
+        "fillMode": "fit",
         "monitors": [
             {
                 "directory": "/home/NOEIS/Pictures/Wallpapers",
