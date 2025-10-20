@@ -1,7 +1,7 @@
 {
     "appLauncher": {
         "backgroundOpacity": 1,
-        "enableClipboardHistory": false,
+        "enableClipboardHistory": true,
         "pinnedExecs": [
         ],
         "position": "center",
@@ -13,7 +13,7 @@
         "cavaFrameRate": 60,
         "mprisBlacklist": [
         ],
-        "preferredPlayer": "",
+        "preferredPlayer": "spotify,vlc,mpv",
         "visualizerType": "linear",
         "volumeOverdrive": false,
         "volumeStep": 5
@@ -115,7 +115,7 @@
         }
     },
     "battery": {
-        "chargingMode": 0
+        "chargingMode": 1
     },
     "brightness": {
         "brightnessStep": 5
@@ -233,7 +233,7 @@
         "alwaysOnTop": false,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
-        "lastSeenTs": 1760625598000,
+        "lastSeenTs": 1760964050000,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
