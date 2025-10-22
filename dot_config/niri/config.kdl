@@ -391,7 +391,7 @@ binds {
    // screen lock for swaylock
    // Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
    // screen lock for noctalia-shell
-   Super+Alt+L hotkey-overlay-title="Lock the Screen: noctalia lock" {spawn-sh "qs -c noctalia-shell ipc call lockScreen toggle";}
+   Super+Alt+L hotkey-overlay-title="Lock the Screen: noctalia lock" {spawn-sh "qs -c noctalia-shell ipc call lockScreen lock";}
 
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
