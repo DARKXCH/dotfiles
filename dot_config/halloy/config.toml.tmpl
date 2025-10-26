@@ -3,12 +3,32 @@
 # For a complete list of available options,
 # please visit https://halloy.chat/configuration/
 
+
+# Type: string
+# Values: "new-pane", "replace-pane", "new-window"
+# Default: "new-pane"
+
+[actions.buffer]
+click_channel_name = "replace-pane"
+click_highlight = "replace-pane"
+
+
+# Type: string
+# Values: "new-pane", "replace-pane", "new-window"
+# Default: "new-pane"
+
+[actions.sidebar]
+buffer = "replace-pane"
+
 [buffer.internal_messages.error]
 enabled = true
 smart = 180
+
 [buffer.internal_messages.success]
 enabled = true
 smart = 180
+
+
 [servers.liberachat]
 nickname = "darkxch"
 server = "irc.libera.chat"
