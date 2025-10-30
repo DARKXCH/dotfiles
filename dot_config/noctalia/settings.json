@@ -1,6 +1,8 @@
 {
     "appLauncher": {
         "backgroundOpacity": 1,
+        "customLaunchPrefix": "",
+        "customLaunchPrefixEnabled": false,
         "enableClipboardHistory": true,
         "pinnedExecs": [
         ],
@@ -31,6 +33,7 @@
         "widgets": {
             "center": [
                 {
+                    "characterCount": 2,
                     "hideUnoccupied": false,
                     "id": "Workspace",
                     "labelMode": "index"
@@ -123,7 +126,8 @@
         "chargingMode": 1
     },
     "brightness": {
-        "brightnessStep": 5
+        "brightnessStep": 5,
+        "enforceMinimum": true
     },
     "colorSchemes": {
         "darkMode": true,
@@ -222,6 +226,7 @@
         "wallpaperChange": ""
     },
     "location": {
+        "analogClockInCalendar": false,
         "name": "Shanghai",
         "showCalendarEvents": true,
         "showWeekNumberInCalendar": false,
@@ -242,6 +247,7 @@
         "nightTemp": "4000"
     },
     "notifications": {
+        "backgroundOpacity": 1,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
         "location": "top_right",
@@ -290,7 +296,8 @@
         "kitty": false,
         "pywalfox": false,
         "qt": false,
-        "vicinae": false
+        "vicinae": false,
+        "walker": false
     },
     "ui": {
         "fontDefault": "Roboto",
@@ -316,6 +323,7 @@
         ],
         "randomEnabled": false,
         "randomIntervalSec": 300,
+        "recursiveSearch": false,
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
