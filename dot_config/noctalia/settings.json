@@ -338,15 +338,15 @@
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
         "cpuWarningThreshold": 80,
-        "criticalColor": "",
+        "criticalColor": "#ffb4ab",
         "diskCriticalThreshold": 90,
         "diskWarningThreshold": 80,
         "memCriticalThreshold": 90,
         "memWarningThreshold": 80,
-        "tempCriticalThreshold": 90,
+        "tempCriticalThreshold": 80,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
-        "warningColor": ""
+        "warningColor": "#ffb1c8"
     },
     "templates": {
         "alacritty": true,
