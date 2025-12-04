@@ -3,5 +3,12 @@ import = ["themes/noctalia.toml"]
 
 [window]
 decorations = "none"
+
 [cursor]
 style = "beam"
+
+[terminal]
+shell = { program = "/usr/bin/fish" }
+
+[font]
+size = 12

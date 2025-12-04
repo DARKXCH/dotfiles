@@ -108,6 +108,7 @@
                     "id": "Bluetooth"
                 },
                 {
+                    "deviceNativePath": "",
                     "displayMode": "onhover",
                     "id": "Battery",
                     "warningThreshold": 30
@@ -130,7 +131,9 @@
                 },
                 {
                     "colorizeDistroLogo": false,
+                    "colorizeSystemIcon": "none",
                     "customIconPath": "",
+                    "enableColorization": false,
                     "icon": "",
                     "id": "ControlCenter",
                     "useDistroLogo": true
@@ -142,6 +145,26 @@
         "brightnessStep": 5,
         "enableDdcSupport": false,
         "enforceMinimum": true
+    },
+    "calendar": {
+        "cards": [
+            {
+                "enabled": true,
+                "id": "calendar-header-card"
+            },
+            {
+                "enabled": true,
+                "id": "calendar-month-card"
+            },
+            {
+                "enabled": true,
+                "id": "weather-card"
+            },
+            {
+                "enabled": false,
+                "id": "timer-card"
+            }
+        ]
     },
     "changelog": {
         "lastSeenVersion": ""
@@ -222,7 +245,6 @@
         "onlySameOutput": true,
         "pinnedApps": [
         ],
-        "radiusRatio": 0.1,
         "size": 1
     },
     "general": {
@@ -291,6 +313,8 @@
         "autoHideMs": 2000,
         "backgroundOpacity": 1,
         "enabled": true,
+        "enabledTypes": [
+        ],
         "location": "top_right",
         "monitors": [
         ],
@@ -345,17 +369,21 @@
         ],
         "showHeader": true
     },
-    "settingsVersion": 23,
-    "setupCompleted": true,
+    "settingsVersion": 26,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
+        "cpuPollingInterval": 3000,
         "cpuWarningThreshold": 80,
         "criticalColor": "#ffb4ab",
         "diskCriticalThreshold": 90,
+        "diskPollingInterval": 3000,
         "diskWarningThreshold": 80,
         "memCriticalThreshold": 90,
+        "memPollingInterval": 3000,
         "memWarningThreshold": 80,
+        "networkPollingInterval": 3000,
         "tempCriticalThreshold": 80,
+        "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
         "warningColor": "#ffb1c8"
@@ -365,6 +393,7 @@
         "cava": false,
         "code": false,
         "discord": true,
+        "emacs": false,
         "enableUserTemplates": false,
         "foot": false,
         "fuzzel": false,
@@ -372,6 +401,7 @@
         "gtk": false,
         "kcolorscheme": false,
         "kitty": false,
+        "niri": false,
         "pywalfox": false,
         "qt": false,
         "spicetify": false,
@@ -391,19 +421,13 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "defaultWallpaper": "/etc/xdg/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
         "directory": "/home/NOEIS/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "fit",
         "hideWallpaperFilenames": false,
-        "monitors": [
-            {
-                "directory": "/home/NOEIS/Pictures/Wallpapers",
-                "name": "eDP-1",
-                "wallpaper": "/home/NOEIS/Pictures/Wallpapers/wallhaven-rrrx8m.jpg"
-            }
+        "monitorDirectories": [
         ],
         "overviewEnabled": true,
         "panelPosition": "follow_bar",
